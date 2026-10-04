@@ -1,0 +1,17 @@
+requirements = """
+ultralytics
+torch
+torchvision
+opencv-python
+Pillow
+numpy
+matplotlib
+scikit-learn
+"""
+
+requirements_path = "/content/traffic_intelligent_system/requirements.txt"
+
+with open(requirements_path, "w") as f:
+    f.write(requirements.strip())
+
+print("requirements.txt created successfully!")
