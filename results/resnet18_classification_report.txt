@@ -1,0 +1,16 @@
+ResNet18 Traffic Light Color Classification Results
+-----------------------------------------------------
+
+Validation Images: 352
+
+              precision    recall  f1-score   support
+
+green           1.0000    1.0000    1.0000       132
+red             1.0000    1.0000    1.0000       213
+yellow          1.0000    1.0000    1.0000         7
+
+accuracy                              1.0000       352
+macro avg       1.0000    1.0000    1.0000       352
+weighted avg    1.0000    1.0000    1.0000       352
+
+Overall Accuracy: 100%
